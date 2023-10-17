@@ -1,0 +1,123 @@
+/* Style du tableau de jeu */
+.game-board {
+    display: flex;
+    grid-template-columns: repeat(7, 1fr);
+    // gap: 10px;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content:space-around;
+    flex-direction: column-reverse;
+    .row {
+      display: flex;
+      justify-content: center;
+    }
+    .game-container{
+      justify-content: space-between;
+      background-color: transparent;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 10px 0;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
+      // display: flex;
+      position: relative;
+      align-items: center;
+      width: 500px;
+    }
+    .cell {
+      width: 10%;
+      height: 60px;
+      border: 1px solid #000;
+      background-color: #6495ED;
+      cursor: pointer;
+      position: relative;
+  
+    }
+    .token {
+        width: 100%;
+        height: 60px;
+        // background-color: red; /* Couleur du pion du joueur 1 */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        &.player-1 {
+        background-color: red;
+      }
+
+      &.player-2 {
+        background-color: yellow;
+      }
+      }
+      .player-1 .token {
+        background-color: red;
+      }
+      
+      .player-2 .token {
+        background-color: yellow;
+      }
+
+      .player-info {
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px 0;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
+      }
+      
+     /* Stylish Player Info */
+.player-1-info,
+.player-2-info {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin-left: 10px;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Stylish Player Color Circle */
+.player-1-info .player-color,
+.player-2-info .player-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+/* Highlight Active Player Info */
+.player-1-info.active,
+.player-2-info.active {
+  background-color: #007bff; /* Active player background color */
+  color: white; /* Text color for the active player */
+  border-color: #0056b3; /* Border color for the active player */
+}
+
+
+     /* Add this to your existing SCSS */
+
+.btn-newgame {
+  margin-left: 210px;
+  margin-top: 20px;
+  background-color: #007bff; /* Background color for the button */
+  color: white; /* Text color for the button */
+  padding: 10px 20px; /* Add padding to make the button larger */
+  border: none; /* Remove the default border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.btn-newgame:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+  }
+  
+      

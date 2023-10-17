@@ -1,0 +1,42 @@
+// .modal-header{
+// height: 100%;
+// }
+.modal {
+    height: 100%;
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10px;
+    background-color: rgba(0, 0, 0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content{
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 80px black;
+    margin-top: 100px;
+    color: white;
+  }
+  .btn-rematch{
+ 
+  background-color: #007bff; /* Background color for the button */
+  color: white; /* Text color for the button */
+  padding: 10px 20px; /* Add padding to make the button larger */
+  border: none; /* Remove the default border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  .btn-newgame:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+  }
