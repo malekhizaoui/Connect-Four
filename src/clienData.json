@@ -1,0 +1,14 @@
+[{
+    "id": 1, 
+    "firstName": "John",
+    "lastName": "Doe",
+    "password":"dyyt1233278",
+    "phoneNumber": "123-456-7890",
+    "image":"src.png",
+    "age": 35,
+    "objectif": "Perte de poids",
+    "location": {
+      "latitude": 123.456789,
+      "longitude": -12.345678
+    }
+  }]

@@ -1,0 +1,31 @@
+[{
+    "id": 1, 
+    "firstName": "John",
+    "lastName": "Doe",
+    "password":"dyyt1233278",
+    "phoneNumber": "123-456-7890",
+    "image":"src.png",
+    "age": 35,
+    "specialization": "Fitness",
+    "pricing": {
+      "sessionCost": 50,
+      "paymentMethods":  "PayPal"
+    },
+    "availability": {
+      "Monday": ["10:00 AM - 12:00 PM", "3:00 PM - 6:00 PM"],
+      "Tuesday": ["8:00 AM - 11:00 AM"],
+      "Wednesday": ["2:00 PM - 5:00 PM"],
+      "Thursday": ["10:00 AM - 12:00 PM", "3:00 PM - 6:00 PM"],
+      "Fiday": ["8:00 AM - 11:00 AM"],
+      "Saturday": [],
+      "Sunday": []
+      
+    },
+    "experience": "Je suis un coach de fitness certifié avec une passion pour la santé et le bien-être.",
+    "location": {
+      "latitude": 123.456789,
+      "longitude": -12.345678
+    },
+    "bio": "Je suis un coach de fitness certifié avec une passion pour la santé et le bien-être."
+  }
+]
